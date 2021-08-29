@@ -1,12 +1,5 @@
-print("Enter input 1")
-x = input()
-print(" Enter input 2")
-y = input()
-z = x + y
-print(x,y)
-print("\n")
-print(x,y)
-print(x,y)
-print(x,y)
-print(x,y)
-print(x,y)
+a=input("Enter the first string: ")
+b=input("Enter the second string: ")
+c=a+" "+b
+print(c)
+print((c+"\n")*5)
